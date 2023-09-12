@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Tracking -->
+  <remote name="track" fetch="https://github.com" />
+
+<!-- Additional -->
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="track" revision="lineage-20" />
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="track" revision="lineage-20" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="track" revision="lineage-20" />
+
+<!-- Trees -->
+ <project path="device/motorola/lake" name="Platform-660-Motorola/android_device_motorola_lake" remote="track" revision="thirteen" />
+ <project path="device/motorola/sdm660-common" name="Platform-660-Motorola/device_motorola_sdm660-common" remote="track" revision="thirteen" />
+ <project path="vendor/motorola/lake" name="Platform-660-Motorola/android_vendor_motorola_lake" remote="track" revision="thirteen" />
+ <project path="vendor/motorola/sdm660-common" name="Platform-660-Motorola/vendor_motorola_sdm660-common" remote="track" revision="thirteen" />
+ <project path="kernel/motorola/sdm660" name="Platform-660-Motorola/kernel_motorola_sdm660" remote="track" revision="thirteen" />
+
+</manifest>
