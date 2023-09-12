@@ -3,11 +3,13 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
+  <remote name="gapps" fetch="https://gitlab.com" />
 
 <!-- Additional -->
   <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="track" revision="lineage-20" />
   <project path="external/bson" name="LineageOS/android_external_bson" remote="track" revision="lineage-20" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="track" revision="lineage-20" />
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gapps" revision="tau" />
 
 <!-- Trees -->
   <project path="device/motorola/evert" name="Platform-660-Motorola/android_device_motorola_evert" remote="track" revision="thirteen" />
